@@ -5,6 +5,8 @@ A Company Profile Website Template
 
 ## Deployed here:
 https://moo-beauty.smmuja.com/
+![Website Preview](assets/img/deploy/website-preview.png)
+
 
 ## This documentation include
 - About the project
