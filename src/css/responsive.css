@@ -30,5 +30,33 @@
         width: 90%;
     }
 
+    /* Footer Grid  */
+footer {
+    display: grid;
+    grid-template-areas: 
+    'footer-logo footer-logo'
+    'footer-information  footer-social-media'
+    'footer-legal footer-social-media'
+    'footer-support  footer-social-media';
+}
+
+#footer-logo {
+    grid-area: footer-logo;
+}
+#footer-information {
+    grid-area: footer-information;
+}
+#footer-legal {
+    grid-area: footer-legal;
+}
+#footer-support {
+    grid-area: footer-support;
+}
+#footer-social-media {
+    grid-area: footer-social-media;
+}
+
+/* Footer Grid end */
+
 
 }

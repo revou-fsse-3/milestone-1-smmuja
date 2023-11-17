@@ -169,6 +169,12 @@ main p {
 .offer-item img {
     width: 80%;
 }
+.offer-item p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 /* .offer-item p {
     overflow: scroll;
     height: 100px;
@@ -285,7 +291,7 @@ main p {
     margin-right: auto;
     margin-top: 10px;
     text-align: left;
-    background-color: var(--tertiary);
+    background-color: var(--secondary);
     border-radius: 15px;
 }
 
@@ -356,6 +362,7 @@ footer div {
 footer div a {
     text-decoration: none;
 }
+
 
 
 /* Dark  */
