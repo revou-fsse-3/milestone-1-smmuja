@@ -1,0 +1,34 @@
+@media only screen and (max-width: 768px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    main {
+        padding: 50% 20%;
+        max-height: 480px;
+    }
+    #main-h2 {
+        font-size: 50px;
+    }
+    #main-text {
+        font-size: smaller;
+        font-weight: normal;
+    }
+
+    /* Form  */
+    #membership-form {
+        width: 70%;
+    }
+
+    .form-label {
+        width: 90%;
+    }
+
+    .form-input {
+        width: 90%;
+    }
+
+
+}

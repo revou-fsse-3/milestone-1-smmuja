@@ -1,0 +1,62 @@
+:root {
+    --primary : white;
+    --secondary : #f4ece1;
+    --tertiary : #ffc0cb;
+    --text: black;
+    --text-url: blue;
+}
+
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+    position: relative;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width:680px), (max-width:768px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+        /* Hamburger start  */
+    .hamburger {
+            display: flex;
+            padding-top: 2%;
+            margin: 0;
+    }
+    .nav-menu {
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 50vw;
+        height: 50vh;
+        padding-left: 10%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column !important;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        background-color: var(--secondary);
+        z-index: -1;
+        transform: translateX(100%);
+        transition: all 1s;
+    }
+    .nav-item {
+        border: none;
+        font-size: large;
+        font-weight: bold;
+        z-index: 1;
+        
+    }
+    
+    .nav-menu.slide {
+        transform: translateX(0);
+    }
+}

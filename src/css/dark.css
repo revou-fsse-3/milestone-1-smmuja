@@ -1,0 +1,67 @@
+
+/* Dark toggle  */
+.dark-toggle {
+    /* display: none; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+#dark-img {
+    height: 24px;
+    width: 24px;
+}
+.dark-toggle img {
+    width: 50px;
+    height: 50px;
+}
+.toggle input {
+    display: none;
+}
+.toggle {
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    height: 25px;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    border-radius: 34px;
+    transition: 0.4s;
+}
+
+.slider::before {
+    background-color: #fff;
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+.toggle input:checked + .slider {
+    background-color: burlywood;
+}
+
+.toggle input:checked + .slider::before {
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+/* Dark toggle  */
