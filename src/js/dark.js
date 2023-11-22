@@ -3,10 +3,14 @@ const dark=document.querySelector("input[type='checkbox']")
         if(dark.checked){
             document.documentElement.setAttribute("data-theme","dark");
             localStorage.setItem("data-theme","dark");
+            // darkImg.src ="assets/icon/star-regular.svg";
+            darkImg.class ="fa-regular fa-sun";
         }
         else{
             document.documentElement.setAttribute("data-theme","light");
             localStorage.setItem("data-theme","light");
+            // darkImg.src ="assets/icon/moon-regular.svg";
+            darkImg.class ="fa-regular fa-moon";
         }    })
     console.log(dark)
     const currentTheme=localStorage.getItem("data-theme")

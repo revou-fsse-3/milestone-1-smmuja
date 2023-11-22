@@ -10,8 +10,9 @@
     <link
     rel="icon"
     type="image/png"
-    href="../assets/img/moo/moo-favicon.png"
+    href="../assets/img/moo/moo-favicon-brown.png"
     />
+    <script src="https://kit.fontawesome.com/ee838cda58.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="src/css/index.css">
     <link rel="stylesheet" href="src/css/responsive.css">
     <link rel="stylesheet" href="src/css/hamburger.css">
@@ -22,25 +23,23 @@
         <nav>
             <div id="logo">
                 <b id="logo-text">Moo Beauty</b>
-                <img 
+                <a href="#">
+                    <img id="logo-img"
                 width="50px"
                 height="50px"
-                src="assets/img/moo/moo-favicon.png" alt="Moo Logo">
+                src="assets/img/moo/moo-favicon-brown.png" alt="Moo Logo">
+                </a>
             </div>
-            <!-- <div id="dark">
-                <img 
-                width="50px"
-                height="50px"
-                src="assets/img/moo/moo-favicon.png" alt="">
-            </div> -->
             <div id="nav-menu" class="nav-menu">
                 <a class="nav-item"href="#">Home</a>
                 <a class="nav-item"href="#offer">About</a>
                 <a class="nav-item"href="#article">Blog</a>
                 <a class="nav-item"href="#membership">Membership</a>
             </div>
+
             <div class="hamburger" id="hamburger">
-                <img src="assets/icon/hamburger-menu.svg" alt="">
+                <i class="fa-solid fa-bars"></i>
+                <!-- <img src="assets/icon/hamburger-menu.svg" alt=""> -->
             </div>
 
             <div class="dark-toggle" id="dark-toggle">
@@ -48,7 +47,8 @@
                     <input type="checkbox" id="dark-checkbox"/>
                     <span class="slider"></span>
                 </label>
-                <img id="dark-img" src="assets/icon/sun-regular.svg" alt="">
+                <!-- <img id="darkImg" src="assets/icon/moon-regular.svg" alt=""> -->
+                <i id="darkImg" class="fa-regular fa-moon"></i>
             </div>
         </nav>
     </header>
@@ -56,76 +56,78 @@
         <h2 id="main-h2">We Give The Most Luxurious Treatments You Deserve</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quidem adipisci, quam libero nihil fugiat minima rerum ex facere molestiae modi. Corrupti quis dolores accusantium. Aliquid iusto cupiditate debitis dolores.</p>
     </main>
-    <!-- <section id="about">
+    <section id="about">
         <h2>About Us</h2>
         <div id="about-container">
             <div id="about-text">
                 <h3>A Glimpse</h3>
-                <p>With a commitment to holistic wellness, our skilled team of therapists and practitioners brings together ancient techniques and modern therapies to create a harmonious balance between mind, body, and soul. From soothing massages to revitalizing facials, each of our treatments is meticulously crafted to offer a personalized and immersive experience.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat quis error assumenda necessitatibus id officia? Architecto illo eligendi eaque vitae at aperiam animi, repellendus neque! Ut reiciendis aliquid possimus doloremque?</p>
                 <h3>Our Philosophy</h3>
-                <p>We understand the importance of escape in today's fast-paced world. Our philosophy revolves around creating an environment where you can disconnect from stress and reconnect with your inner self. Our serene ambiance, infused with calming aromas and serene music, sets the stage for your relaxation journey.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis dolore nisi amet quae ipsum, quidem similique ut? Fugit similique officiis aut fugiat tenetur corporis delectus? Atque at odio veniam nisi.</p>
             </div>
             <div id="about-img">
-                <img src="https://64.media.tumblr.com/4d3d44c4a0245ba9dc0a74e8f67c4f25/tumblr_mt9yl2pgLh1qa4szeo1_500.gifv" alt="">
+                <img src="https://64.media.tumblr.com/4d3d44c4a0245ba9dc0a74e8f67c4f25/tumblr_mt9yl2pgLh1qa4szeo1_500.gifv" alt="Blooming Flower">
             </div>
         </div>
-    </section> -->
+    </section>
     <section id="offer">
         <h2>What We Offer</h2>
         <div id="offer-container">
             <div class="offer-item">
-                <img src="assets/img/article/service.jpg" alt="">
+                <h3>Facial</h3>
+                <img src="assets/img/article/service.jpg" alt="Our services">
                 <h4>(Promo) Happy Hours 15% Off All Treatment</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ut assumenda corrupti at eius iusto dolore fugiat aliquam ipsam facere, vel libero sint quo perspiciatis obcaecati possimus amet, magnam adipisci.</p>
             </div>
             <div class="offer-item">
-                <img src="assets/img/article/service.jpg" alt="">
+                <h3>Body</h3>
+                <img src="assets/img/article/service-2.jpg" alt="Our Services">
                 <h4>(Promo) Happy Hours 15% Off All Treatment</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus suscipit possimus assumenda maiores esse voluptate beatae adipisci, a provident! Odit accusantium quasi voluptatem corrupti sunt, cumque nemo ipsam doloribus iusto.</p>
             </div>
             <div class="offer-item">
-                <img src="assets/img/article/service.jpg" alt="">
+                <h3>Hair</h3>
+                <img src="assets/img/article/service-3.jpg" alt="Our Services">
                 <h4>(Promo) Happy Hours 15% Off All Treatment</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae expedita facilis dolorem laudantium, necessitatibus facere ducimus, doloribus placeat sint aliquam quaerat assumenda maiores odio! Iste distinctio nam quod non voluptates?</p>
             </div>
         </div>
-
     <section id="team">
         <h2>Our Team</h2>
         <div id="team-container">
             <div class="team-item">
                 <img 
-                src="assets/img/article/team.jpg" alt="">
+                src="assets/img/article/team.jpg" alt="Our team">
                 <h4>Noe</h4>
                 <p>Beauty Advisor</p>
             </div>
             <div class="team-item">
                 <img 
-                src="assets/img/article/team-2.jpg" alt="">
+                src="assets/img/article/team-2.jpg" alt="Our team">
                 <h4>Noe</h4>
                 <p>Beauty Advisor</p>
             </div>
             <div class="team-item">
                 <img 
-                src="assets/img/article/team-3.jpg" alt="">
+                src="assets/img/article/team-3.jpg" alt="Our team">
                 <h4>Noe</h4>
                 <p>Beauty Advisor</p>
             </div>
             <div class="team-item">
                 <img 
-                src="assets/img/article/team.jpg" alt="">
+                src="assets/img/article/team.jpg" alt="Our team">
                 <h4>Noe</h4>
                 <p>Beauty Advisor</p>
             </div>
             <div class="team-item">
                 <img 
-                src="assets/img/article/team-2.jpg" alt="">
+                src="assets/img/article/team-2.jpg" alt="Our team">
                 <h4>Noe</h4>
                 <p>Beauty Advisor</p>
             </div>
             <div class="team-item">
                 <img 
-                src="assets/img/article/team-3.jpg" alt="">
+                src="assets/img/article/team-3.jpg" alt="Our team">
                 <h4>Noe</h4>
                 <p>Beauty Advisor</p>
             </div>
@@ -149,19 +151,37 @@
         </div>
         <div id="article-container">
             <div class="article-item">
-                <img src="assets/img/article/skincare-istock.jpg" alt="">
+                <img class="article-item-img" src="assets/img/article/skincare-istock.jpg" alt="Beauty article">
                 <h2 class="h2-article-title">5 Basic Skincare Steps You Need to Know</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, maxime porro officiis quia expedita provident earum iusto facilis laboriosam molestias, quasi dignissimos distinctio nisi minus repellat facere. Porro, vitae explicabo.</p>
                 <div><button>Hair</button><button>Product</button></div>
             </div>
             <div class="article-item">
-                <img src="assets/img/article/skincare-istock.jpg" alt="">
+                <img class="article-item-img" src="assets/img/article/skincare-istock.jpg" alt="Beauty article">
                 <h2 class="h2-article-title">5 Basic Skincare Steps You Need to Know</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem omnis, facilis architecto a tempore libero praesentium enim quis at, non vero! Blanditiis corrupti molestias, iste adipisci praesentium commodi facere. Aliquid.</p>
                 <div><button>Face</button><button>Tips</button></div>
             </div>
             <div class="article-item">
-                <img src="assets/img/article/skincare-istock.jpg" alt="">
+                <img class="article-item-img" src="assets/img/article/skincare-istock.jpg" alt="Beauty article">
+                <h2 class="h2-article-title">5 Basic Skincare Steps You Need to Know</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, repellat sint aliquid quaerat quam vel qui quibusdam porro magnam ut laborum placeat repudiandae? Odit veniam saepe, repudiandae doloribus repellat officiis.</p>
+                <div><button>Body</button><button>Skincare</button></div>
+            </div>
+            <div class="article-item">
+                <img class="article-item-img" src="assets/img/article/skincare-istock.jpg" alt="Beauty article">
+                <h2 class="h2-article-title">5 Basic Skincare Steps You Need to Know</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, maxime porro officiis quia expedita provident earum iusto facilis laboriosam molestias, quasi dignissimos distinctio nisi minus repellat facere. Porro, vitae explicabo.</p>
+                <div><button>Hair</button><button>Product</button></div>
+            </div>
+            <div class="article-item">
+                <img class="article-item-img" src="assets/img/article/skincare-istock.jpg" alt="Beauty article">
+                <h2 class="h2-article-title">5 Basic Skincare Steps You Need to Know</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem omnis, facilis architecto a tempore libero praesentium enim quis at, non vero! Blanditiis corrupti molestias, iste adipisci praesentium commodi facere. Aliquid.</p>
+                <div><button>Face</button><button>Tips</button></div>
+            </div>
+            <div class="article-item">
+                <img class="article-item-img" src="assets/img/article/skincare-istock.jpg" alt="Beauty article">
                 <h2 class="h2-article-title">5 Basic Skincare Steps You Need to Know</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, repellat sint aliquid quaerat quam vel qui quibusdam porro magnam ut laborum placeat repudiandae? Odit veniam saepe, repudiandae doloribus repellat officiis.</p>
                 <div><button>Body</button><button>Skincare</button></div>
@@ -182,7 +202,7 @@
             <div id="membership-form">
                 <form action="#">
                     <fieldset>
-                        <legend id="formlegend">Join Membership</legend>
+                        <legend id="form-legend">Join Membership</legend>
                         <div>
                             <label for="fname" class="form-label">Name :</label>
                             <input type="text" id="fname" class="form-input" placeholder="Insert your name" required>
@@ -209,7 +229,7 @@
             <img 
             height="50px"
             width="50px"
-            src="assets/img/moo/moo-favicon.png" alt="">
+            src="assets/img/moo/moo-favicon-brown.png" alt="Moo logo">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure tenetur, illum numquam iusto quam ut? Ducimus animi soluta beatae optio facilis, hic sint blanditiis praesentium iste ex fuga veritatis quisquam.</p>
         </div>
 
@@ -232,12 +252,15 @@
         </div>
         <div id="footer-social-media">
             <h4>Social Media</h4>
-            <a href="#">Facebook</a>
-            <a href="#">Instagram</a>
-            <a href="#">Twitter</a>
-            <a href="#">Youtube</a>
-            <a href="#">Pinterest</a>
-            <a href="#">LinkedIn</a>
+            <div id="socmed-container" >
+                <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+
+            </div>
         </div>
 
     </footer>
