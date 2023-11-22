@@ -73,10 +73,14 @@ Here's how :
     3. Edit using VS Code or any application convenient to you  
     4. Push to your own repository  
         Use the following commands in your VS Code terminal  
-        `git add .`  
-        `git commit -m "your-message"`  
-        `git push`  
-    
+        `git add .`  // To add/track all changes  
+        `git commit -m "your-message"`  //To stage and compile all changes  
+        `git push`  //To push and update to remote git repository  
+    ![Push](assets/img/deploy/git-push.png)  
+    ![Push](assets/img/deploy/git-push-1.png)  
+    You can also use `git status` between those 3 commands to check your current git state, it doesn't change anything
+    ![Push status](assets/img/deploy/git-push-status.png)
+
     5. Deploy (Elaborated more on the following section)  
 
 Link : https://moo-beauty.smmuja.com/  
